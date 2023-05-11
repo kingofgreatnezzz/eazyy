@@ -16,7 +16,6 @@ from django.conf import settings
 
 
 
-
 def index(request):
     hm_picz = home_img.objects.all()
     return render(request,  'projects/index.html')
